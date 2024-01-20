@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pytnik.css">
+    <title>Pytnik</title>
+</head>
+<body id="bd">
+    <div id="options" >
+        <div id="select" aria-selected="false">
+            <label>Izaberite agenta:</label>
+            <select id="sl">
+                <option>Aki</option>
+                <option>Jocke</option>
+                <option>Uki</option>
+                <option>Micko</option>
+            </select>
+        </div>
+        <div id="searcing">
+            <span id="srch"> </span>
+        </div>
+        <div id="mapp">
+            <span>Izaberi mapu:<input type="radio" name="rad" id="map0" value="Mapa 1" checked><label>Mapa 1</label><input type="radio" name="rad" id="map1" value="Mapa 2"><label>Mapa 2</label></span>
+        </div>
+        <div id="button">
+            <button id="btn">Start</button>
+        </div>
+    </div>
+    <div>
+
+        <h2 id="mod">....................</h2>
+    </div>
+    <div id="svgContent">
+        <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="1000" height="600" style="background: url('terrain.png');">
+           
+        </svg>
+        <div id="black" style="background-color: black; width: 350px;">
+        <p>============Putanja============</p>
+        <p id="bottom">==================================<br>Cena putanje:<span id="suma"></span></p>
+        </div>
+    </div>    
+    <script src="pytnik.js"></script>
+    
+</body>
+</html>
