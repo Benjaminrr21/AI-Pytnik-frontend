@@ -147,7 +147,8 @@ else if(agentSel == 'Micko') pretrazivanje.innerHTML = 'A*';
 
 //SLANJE ZAHTEVA
 ///const url = 'http://127.0.0.1:8000/game/path/';
-const url = 'https://pytnikbackend.vercel.app/game/path/';
+//const url = 'https://pytnikbackend.vercel.app/game/path/';
+const url = 'https://benjaminr02.pythonanywhere.com/game/path/';
 const data = {
   matrica: matrica,
   agent: agentSel
